@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Naimur Rahman Himel — CSE Python Lab Portfolio">
+  <title>Naimur Rahman Himel | Python Lab Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="container nav">
+      <a class="logo" href="#home">Naimur<span>.py</span></a>
+      <div class="links">
+        <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#lab">Lab Work</a><a href="#contact">Contact</a>
+      </div>
+      <button class="menu" aria-label="Menu" onclick="document.querySelector('.links').style.display='flex'">☰</button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <div class="tag">🐍 Python Lab Portfolio · CSE</div>
+          <h1>Building with<br><span>Python.</span></h1>
+          <p>Hi, I'm <strong>Naimur Rahman Himel</strong>, a Computer Science & Engineering student at the University of Asia Pacific. This portfolio presents my Python lab work, programming practice, and project journey.</p>
+          <div class="buttons">
+            <a class="btn primary" href="#projects">Explore My Work ↓</a>
+            <a class="btn secondary" href="https://github.com/Naimur47" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+        <div class="terminal">
+          <div class="terminal-head"><i class="dot"></i><i class="dot"></i><i class="dot"></i></div>
+          <pre><span class="comment"># python_lab.py</span>
+<span class="kw">class</span> <span class="fn">Student</span>:
+    name = <span class="str">"Naimur Rahman Himel"</span>
+    university = <span class="str">"UAP"</span>
+    focus = <span class="str">"Python + CSE"</span>
+
+    <span class="kw">def</span> <span class="fn">build</span>(self):
+        <span class="kw">return</span> [
+            <span class="str">"Calculator"</span>,
+            <span class="str">"Number Guessing Game"</span>,
+            <span class="str">"Mini Car Game"</span>
+        ]
+
+<span class="fn">print</span>(<span class="str">"Keep coding 🚀"</span>)</pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-head"><div class="eyebrow">01 · About</div><h2>A student who learns by building.</h2><p>A clean snapshot of my academic identity and programming interests.</p></div>
+        <div class="about">
+          <div class="card profile"><div class="avatar"><img src="profile.jpg" alt="Naimur Rahman Himel"></div><h3>Naimur Rahman Himel</h3><p class="muted">CSE Student · Python Learner</p></div>
+          <div class="card">
+            <h3>About Me</h3>
+            <p class="muted" style="margin-top:12px">I'm a CSE student passionate about programming and practical problem solving. My Python lab work gives me a hands-on way to understand programming fundamentals, logic, functions, conditions, loops, and interactive applications.</p>
+            <div class="facts">
+              <div class="fact"><small>University</small><strong>University of Asia Pacific</strong></div>
+              <div class="fact"><small>Department</small><strong>Computer Science & Engineering</strong></div>
+              <div class="fact"><small>Primary Language</small><strong>Python</strong></div>
+              <div class="fact"><small>Lab Focus</small><strong>Programming & Problem Solving</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-head"><div class="eyebrow">02 · Projects</div><h2>Python lab projects.</h2><p>Small projects that demonstrate programming concepts through practical implementation.</p></div>
+        <div class="projects">
+          <article class="card project"><div class="num">PROJECT 01</div><h3>🧮 Calculator</h3><p>A command-line calculator for performing common arithmetic operations while practicing input handling, operators, conditions, and functions.</p><div class="chips"><span class="chip">Python</span><span class="chip">Functions</span><span class="chip">Operators</span></div></article>
+          <article class="card project"><div class="num">PROJECT 02</div><h3>🎯 Number Guessing Game</h3><p>An interactive guessing game where the player uses hints and repeated attempts to find a randomly generated number.</p><div class="chips"><span class="chip">Random</span><span class="chip">Loops</span><span class="chip">Conditions</span></div></article>
+          <article class="card project"><div class="num">PROJECT 03</div><h3>🏎️ Mini Car Game</h3><p>A compact Python game project focused on interaction, game logic, decision making, and creating an engaging console-based experience.</p><div class="chips"><span class="chip">Python</span><span class="chip">Game Logic</span><span class="chip">Input</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-head"><div class="eyebrow">03 · Skills</div><h2>My programming toolkit.</h2><p>Core skills developed through lab exercises and project practice.</p></div>
+        <div class="skills">
+          <div class="card skill"><div class="skill-top"><strong>Python (Programming Language)</strong><span class="muted">90%</span></div><div class="bar"><div class="fill" style="width:90%"></div></div></div>
+          <div class="card skill"><div class="skill-top"><strong>C (Programming Language)</strong><span class="muted">75%</span></div><div class="bar"><div class="fill" style="width:75%"></div></div></div>
+          <div class="card skill"><div class="skill-top"><strong>Video Editing</strong><span class="muted">82%</span></div><div class="bar"><div class="fill" style="width:82%"></div></div></div>
+          <div class="card skill"><div class="skill-top"><strong>Content Creation</strong><span class="muted">80%</span></div><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+          <div class="card skill"><div class="skill-top"><strong>Debate</strong><span class="muted">78%</span></div><div class="bar"><div class="fill" style="width:78%"></div></div></div>
+          <div class="card skill"><div class="skill-top"><strong>Poetry Writing</strong><span class="muted">76%</span></div><div class="bar"><div class="fill" style="width:76%"></div></div></div>
+          <div class="card skill"><div class="skill-top"><strong>Problem Solving</strong><span class="muted">82%</span></div><div class="bar"><div class="fill" style="width:82%"></div></div></div>
+          <div class="card skill"><div class="skill-top"><strong>HTML & CSS</strong><span class="muted">78%</span></div><div class="bar"><div class="fill" style="width:78%"></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="lab">
+      <div class="container">
+        <div class="section-head"><div class="eyebrow">04 · Lab Work</div><h2>What this portfolio demonstrates.</h2><p>Concepts behind the projects are presented in a clear, viva-friendly format.</p></div>
+        <div class="lab">
+          <div class="card"><h3>Programming Concepts</h3><ul>
+            <li><span class="check">✓</span><span>Variables, data types & user input</span></li>
+            <li><span class="check">✓</span><span>Arithmetic and logical operators</span></li>
+            <li><span class="check">✓</span><span>Conditional statements</span></li>
+            <li><span class="check">✓</span><span>Loops and repeated execution</span></li>
+          </ul></div>
+          <div class="card"><h3>Practical Development</h3><ul>
+            <li><span class="check">✓</span><span>Functions and modular thinking</span></li>
+            <li><span class="check">✓</span><span>Random number generation</span></li>
+            <li><span class="check">✓</span><span>Interactive console applications</span></li>
+            <li><span class="check">✓</span><span>Version control with GitHub</span></li>
+          </ul></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="card">
+          <div class="eyebrow">05 · Connect</div>
+          <h2>Let's connect & keep building.</h2>
+          <p>For academic collaboration, project discussions, or simply connecting with a fellow developer, feel free to reach out.</p>
+          <div class="socials">
+            <a class="btn primary" href="mailto:naimehimel89@gmail.com">Email Me</a>
+            <a class="btn secondary" href="https://github.com/Naimur47" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn secondary" href="https://www.linkedin.com/in/naimur-rahman-himel-ab5970362" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer"><span>© 2026 Naimur Rahman Himel</span><span>Python Lab Portfolio · University of Asia Pacific</span></div></footer>
+</body>
+</html>
